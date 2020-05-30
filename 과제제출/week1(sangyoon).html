@@ -1,0 +1,114 @@
+<html lang="en">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1주차 과제제출(온라인1기 황상윤)</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        /* 전체 사이즈 정의*/
+        .wrap {
+            margin: 50px auto auto auto;
+            width: 400px;
+        }
+
+        .btn {
+            margin: auto 200px auto 70px;
+            width: 100px;
+            text-align:center
+        }
+
+        .form-control {
+            margin: auto auto auto auto;
+            width: 400px;
+
+        }
+
+        .custom-select mr-sm-2 {
+            margin: auto auto auto auto;
+            width: 400px;
+        }
+
+        .order {
+           text-align:center
+        
+        }
+
+        .price {
+            font-size: small;
+        }
+    </style>
+    <script>
+        function hey() {
+            alert('주문이 완료되었습니다!');
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 제품사진이미지 -->
+        <img src="http://i.011st.com/ex_t/R/400x400/1/85/0/src/pd/20/2/2/8/4/3/1/QZSrt/2858228431_B.jpg" />
+        <!-- 상세설명 -->
+        <p></p>
+        <h2>꽃화분을 팝니다<span class="price">가격 : 16,000원/개</span></h2>
+        <h15>이 꽃화분은 특별한 향기를 가지고 있어요. 식탁위에 두면 행복이 옵니다 </h3>
+            <p></p>
+            <!-- 주문하기 창-->
+            <form>
+                <div class="good">
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">주문자이름</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small"
+                            aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <p></p>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect01">수량</label>
+                        </div>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option selected>수량을 선택해주세요...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <p></p>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">주소</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small"
+                            aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <p></p>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">전화번호</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small"
+                            aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                </div>
+    </div>
+    </div>
+    <!-- 주문하기 버튼1-->
+    <div class="order">
+        <a onclick="hey()" button type="button" class="btn"></button>
+            <button type="submit" class="btn btn-primary">주문하기</button>
+
+
+    </div>
+    </div>
+    </form>
+</body>
+</html>
